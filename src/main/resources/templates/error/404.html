@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ha ocurrido un error</title>
+</head>
+<body>
+<h3>Ha ocurrido un error 404. Pagina no encontrada</h3>
+
+<div th:text="${error}">//mensaje de error
+
+</div>
+
+<div th:text="${status}">//codigo de error
+</div>
+
+<div th:text="${timestap}">//fecha en la que se ha producido el error
+</div>
+
+<div th:text="${path}">//ruta donde se ha producido el error
+</div>
+</body>
+</html>
